@@ -4,7 +4,7 @@
     {
         // If there is no Command.txt file in the directory of exe file, this commands will be returned
         private static readonly List<string> _defaultCommands = new()
-        { "10 push-ups", "Close your eyes", "Take a look outside", "Breath deeply" };
+        { "10 push-ups", "Close your eyes", "Take a look outside", "Breath deeply" , "Fix your posture" , "Stay hydrated" };
 
         private static List<string> _commands;
 
@@ -22,7 +22,6 @@
         #region Sync
         public static List<string> ReadCommandFile()
         {
-            //string path = "C://Users//usame//Desktop";
             string path = AppDomain.CurrentDomain.BaseDirectory;
             const string fileName = "Commands.txt";
             string file = Path.Combine(path, fileName);
