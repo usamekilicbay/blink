@@ -4,8 +4,8 @@ namespace blink
 {
     public partial class Form1 : Form
     {
-        private int _countdownDuration = 60;
-        private int _sleepDuration = 60 * 20;
+        private const int _countdownDuration = 60;
+        private const int _sleepDuration = 60 * 20;
         private int _countdown;
 
         public Form1()
