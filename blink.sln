@@ -7,6 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "blink", "blink.csproj", "{7
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sidekick.WinForms", "..\Sidekick.WinForms\Sidekick.WinForms.csproj", "{ED672B0B-F129-43A6-A5D3-7988A0531ECD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ScreenShots", "ScreenShots", "{D67E6FA9-7750-4482-9765-445A731D704A}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\blink1.png = ..\..\..\Desktop\blink1.png
+		..\..\..\Desktop\blink2.png = ..\..\..\Desktop\blink2.png
+		..\..\..\Desktop\blink3.png = ..\..\..\Desktop\blink3.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
